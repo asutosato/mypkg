@@ -1,33 +1,22 @@
 # robosys2023_ros2_mypkg
 ロボットシステム学2023で制作したROS 2のパッケージです。
 
-## ノード
 ![test](https://github.com/asutosato/robosys2023_ros2_mypkg/actions/workflows/test.yml/badge.svg)
+
+## ノード
 
 ### talker
 数字をカウントしてトピック/countupを通じて送信する。
 
-実行例
-```
-#端末1
-$ ros2 run mypkg talker
- (なにも表示されない)
-
-#端末2
-$ ros2 topic echo /countup
-data: 8 
----
-data: 9
----
-data: 10
----
-・・・
-```
-
 ### listener
 /countupから受け取った数字を標準出力する。
 
-実行例
+## トピック
+
+###countup
+
+## 実行例
+
 ```
 #端末1
 $ ros2 run mypkg talker
@@ -42,9 +31,22 @@ $ ros2 run mypkg listener
 ・・・
 ```
 
+```
+$ ros2 launch mypkg talk_listen.launch.py
+[listener-2] [INFO] [1703496258.256578689] [listener]: Listen: 0
+[listener-2] [INFO] [1703496258.746302212] [listener]: Listen: 1
+[listener-2] [INFO] [1703496259.246264140] [listener]: Listen: 2
+[listener-2] [INFO] [1703496259.745889194] [listener]: Listen: 3
+[listener-2] [INFO] [1703496260.246123046] [listener]: Listen: 4
+```
+
 ## 必要なソフトウェア
 
 ## テスト環境
 Ubuntu 20.04.5 LTS
 
 ## ライセンス
+* このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。
+* このパッケージのコードの一部は、下記のスライド(CC-BYSA 4.0 by Ryuiti Ueda)のものを本人の許可を得て自身の著作としたものです。
+
+©2023　Asuto Sato
