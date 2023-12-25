@@ -9,10 +9,12 @@
 
 実行例
 ```
-$ ros2 run mypkg talker        #端末1
+#端末1
+$ ros2 run mypkg talker
  (なにも表示されない)
 
-$ ros2 topic echo /countup     #端末2
+#端末2
+$ ros2 topic echo /countup
 data: 8 
 ---
 data: 9
@@ -27,10 +29,12 @@ data: 10
 
 実行例
 ```
-$ ros2 run mypkg talker        #端末1
+#端末1
+$ ros2 run mypkg talker
 (なにも表示されない)
 
-$ ros2 run mypkg listener     #端末2
+#端末2
+$ ros2 run mypkg listener
 [INFO] [1703490568.725823014] [listener]: Listen: 12
 [INFO] [1703490569.080992382] [listener]: Listen: 13
 [INFO] [1703490569.581275049] [listener]: Listen: 14
