@@ -6,16 +6,19 @@
 ## ノード
 
 ### talker
-数字をカウントしてトピック/countupを通じて送信する。
+数字をカウントしてトピックを通じて送信する。
 
 ### listener
-/countupから受け取った数字を標準出力する。
+トピックから受け取った数字を標準出力する。
 
 ## トピック
 
-###countup
+### countup
+talkerから送られた信号をlistenerに送る。
+メッセージの型は16ビット符号付き整数を使用する。
 
 ## 実行例
+talkerとlistenerを二つの端末で個別に立ち上げる。
 
 ```
 #端末1
@@ -30,6 +33,8 @@ $ ros2 run mypkg listener
 [INFO] [1703490570.080755689] [listener]: Listen: 15
 ・・・
 ```
+
+launchファイルを使用してtalkerとlistenerを一つの端末で立ち上げる。
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
