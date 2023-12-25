@@ -68,5 +68,9 @@ ROS 2 humble
 ## ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。
 * このパッケージのコードの一部は、下記のスライド(CC-BYSA 4.0 by Ryuiti Ueda)のものを本人の許可を得て自身の著作としたものです。
+   * [ryuichiueda/my_slides/robosys_2022/lesson8](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/22)
+   * [ryuichiueda/my_slides/robosys_2022/lesson9](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson9.html#/3)
+   * [ryuichiueda/my_slides/robosys_2022/lesson10](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson10.html#/4)
+
 
 ©2023　Asuto Sato
