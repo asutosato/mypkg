@@ -19,7 +19,7 @@ talkerから送られた信号をlistenerに送る。
 メッセージの型は16ビット符号付き整数を使用する。
 
 ## 実行例
-talkerとlistenerを二つの端末で個別に立ち上げる方法。
+talkerとlistenerを二つの端末で個別に立ち上げる方法
 
 ```
 #端末1
@@ -35,7 +35,7 @@ $ ros2 run mypkg listener
 ・・・
 ```
 
-launchファイルを使用してtalkerとlistenerを一つの端末で立ち上げる方法。
+launchファイルを使用してtalkerとlistenerを一つの端末で立ち上げる方法
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
@@ -55,11 +55,14 @@ git clone https://github.com/asutosato/robosys2023_ros2_mypkg.git
 
 ## 必要なソフトウェア
 Ubuntu 20.04.5 LTS
+
 ROS 2
+
 Python
 
 ## テスト環境
 Ubuntu 22.04
+
 ROS 2 humble
 
 ## ライセンス
