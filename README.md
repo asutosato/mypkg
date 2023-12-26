@@ -1,7 +1,6 @@
 # robosys2023_ros2_mypkg
 ロボットシステム学2023で制作したROS 2のパッケージです。
-
-![test](https://github.com/asutosato/robosys2023_ros2_mypkg/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/asutosato/mypkg/actions/workflows/test.yml/badge.svg)
 
 ## ノード
 
@@ -49,7 +48,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ## インストール方法
 
 ```
-git clone https://github.com/asutosato/robosys2023_ros2_mypkg.git
+git clone https://github.com/asutosato/mypkg.git
 ```
 
 
