@@ -1,4 +1,4 @@
-# robosys2023_ros2_mypkg
+# mypkg
 ロボットシステム学2023で制作したROS 2のパッケージです。
 
 ![test](https://github.com/asutosato/mypkg/actions/workflows/test.yml/badge.svg)
